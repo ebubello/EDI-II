@@ -1,0 +1,29 @@
+Como bajar cambios a Repositorio Clonado
+
+Comando:  Git Push
+          Git Pull --> Este comando descarga todo lo nuevo que este en el repositorio de GitHub y lo descarga a 
+          nuestra carpeta de GitHub Local (Repositorio Clonado).
+          
+          
+Como Subir Cambios al Repositorio
+
+git status -->Indica los archivos pendientes con cambios
+
+Ants de Subir debemos configurar el user y pass de nuestra cuenta de GitHub
+
+git config --global user.mail "Nuestromail@gmail.com"
+git config --global user.name "Nuestro nombre de usuario de GitHub"
+
+Antes de Subir los archivos pendientes es recomendable agregar un comentario de lo que se esta subiendo Ejemplo:
+git commit -m "Subiendo Archivo de Prueba"
+
+Finalmente ejecutamos lo siguiente para subir los cambios al repositorio de GitHub
+
+git push origin master 
+
+No pedira la siguente informacion :
+
+Username for 'https://github.com': "Nombre de nuestro usuario" Ejemplo: ebubello
+Password for 'https://ebubello@github.com': "Password de nuestra cuenta"
+
+Finalizado todo el proceso el archivo se vera reflejado en el repositorio.
