@@ -14,6 +14,9 @@ Ants de Subir debemos configurar el user y pass de nuestra cuenta de GitHub
 git config --global user.mail "Nuestromail@gmail.com"
 git config --global user.name "Nuestro nombre de usuario de GitHub"
 
+Luego git add . -->Subimos todos los cambios
+	  git add 
+
 Antes de Subir los archivos pendientes es recomendable agregar un comentario de lo que se esta subiendo Ejemplo:
 git commit -m "Subiendo Archivo de Prueba"
 
