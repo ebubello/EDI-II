@@ -11,7 +11,7 @@ git status -->Indica los archivos pendientes con cambios
 
 Ants de Subir debemos configurar el user y pass de nuestra cuenta de GitHub
 
-git config --global user.mail "Nuestromail@gmail.com"
+git config --global user.email "Nuestromail@gmail.com"
 git config --global user.name "Nuestro nombre de usuario de GitHub"
 
 Luego git add . -->Subimos todos los cambios
