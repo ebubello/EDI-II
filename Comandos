@@ -1,0 +1,42 @@
+--Instalar Apache: sudo apt-get install lamp-server^
+--ReIniciar Apachce: sudo systemctl restart apache2
+
+Abra cualquier navegador web y luego ingrese lo siguiente en la dirección web:
+
+http://localhost /
+
+Prueba PHP
+Para probar el PHP, coloque un archivo .php en la raíz de documentos predeterminada del servidor web Apache.
+
+sudo nano /var/www/html/phpinfo.php
+
+Copie / pegue esta línea en el archivo phpinfo:
+
+<?php
+
+// Show all information, defaults to INFO_ALL
+phpinfo();
+
+?>
+
+Ahora abra su navegador web y escriba lo siguiente en la dirección web:
+
+http://localhost/phpinfo.php
+
+-------------------------------------------------
+
+Instale phpMyAdmin en Linux Mint 19
+Lo siguiente es instalar phpMyAdmin, una interfaz web gráfica para administrar bases de datos con mucha facilidad.
+
+sudo apt-get install phpmyadmin -->Usuer:phpmyadmin
+
+https://www.itzgeek.com/how-tos/linux/linux-mint-how-tos/setup-lamp-on-linux-mint-12-lisa-lamp-on-linux-mint-12.html
+
+----------------------------------------
+
+Añadir tu usuario de linux al grupo www-data
+
+sudo chgrp -R www-data /var/www
+sudo chmod -R g+w /var/www
+
+
